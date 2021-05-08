@@ -8,7 +8,7 @@ namespace preparacion2parcial.Models
 {
     public class Person
     {
-        [key]
+        [Key]
         public int FriendId { get; set; }
         [Required]
         [StringLength(30, MinimumLength = 3)]
